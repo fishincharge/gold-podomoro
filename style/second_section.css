@@ -1,0 +1,367 @@
+.second-section-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1500px;
+  background-color: #2E3D4C;
+  position: relative;
+}
+
+.gold-ornament-2-left-top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 347px;
+  z-index: 0;
+}
+
+.gold-ornament-2-right-top{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 530px;
+  z-index: 0;
+}
+
+.gold-ornament-3-left-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+}
+
+.gold-ornament-3-right-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+}
+
+
+.second-section-title{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  color: white;
+  margin-top: 48px;
+  font-weight: normal;
+}
+
+.second-section-emphasis{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FEC108;
+}
+
+.product-category{
+  display: flex;
+  margin-top: 30px;
+  
+  width: 600px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 0px;
+}
+
+.lm-antam,
+.antam-retro-potrait,
+.figura,
+.plakat,
+.box{
+  border: solid;
+  border-color: #FEC108;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 10px;
+  background-color: #2E3D4C;
+  color: white;
+  
+  font-family: Brandink Sans;
+  font-size: 14px;
+}
+
+.button-active{
+  background-color: #FEC108;
+}
+
+.lm-antam:hover,
+.antam-retro-potrait:hover,
+.figura:hover,
+.plakat:hover,
+.box:hover{
+  background-color: #FEC108;
+}
+
+.lm-antam:active,
+.antam-retro-potrait:active,
+.figura:active,
+.plakat:active,
+.box:active{
+  opacity: 0.5;
+}
+
+/*Slider*/
+.product-container,
+.rp-container,
+.figura-container,
+.plakat-container,
+.box-container{
+  max-width: 1120px;
+  width: 100%;  
+  height: 1050px;
+  padding-top: 10px;
+  display: none;
+  
+}
+
+.box-active{
+  display: flex;
+}
+
+.product-content,
+.rp-content,
+.figura-content,
+.plakat-content,
+.box-content{
+  padding: 45px 20px;
+  margin: 0 40px;
+  overflow: hidden;
+  
+}
+
+.product-navBtn,
+.rp-navBtn,
+.figura-navBtn,
+.plakat-navBtn,
+.box-navBtn{
+  color: white;
+}
+
+/* product card */
+.product-card,
+.rp-card,
+.figura-card,
+.plakat-card,
+.box-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  background-color: #101F30;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.product-title,
+.rp-title{
+  font-family: Brandink Sans;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.product-pagination,
+.rp-pagination,
+.figura-pagination,
+.plakat-pagination,
+.box-pagination{
+  position: absolute;
+  left: 0;
+  right: 0;
+  
+}
+
+.product-price,
+.rp-price{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 21px;
+  color: #FEC108;
+  margin-bottom: 15px;
+}
+
+.product-image{
+  margin-top: 20px;
+  height: 270px;
+  width: 270px;
+  margin-bottom: 20px;
+
+  object-fit: contain;
+}
+
+.rp-image{
+  height: 270px;
+  width: 270px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.figura-image{
+  width: 270px;
+  height: 270px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  object-fit: contain;
+}
+
+.plakat-image{
+  width: 270px;
+  height: 270px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  object-fit: contain;
+}
+
+.box-image{
+  width: 270px;
+  height: 270px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  object-fit: contain;
+}
+
+.product-buy-button,
+.rp-buy-button{
+  display: flex;
+  padding: 5px 25px;
+  flex-direction: row;
+  align-items: center;
+
+  border-radius: 5px;
+  border: none;
+  background-color: #2BD465;
+}
+
+.product-whatsapp-icon,
+.rp-whatsapp-icon{
+  height: 30px;
+  margin-right: 15px;
+}
+
+.product-buy-button p,
+.rp-buy-button p{
+  font-family: Brandink Sans;
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 1100px){
+  .gold-ornament-2-left-top{
+    width: 250px;
+  }
+  .gold-ornament-2-right-top{
+    width: 400px;
+  }
+  .gold-ornament-3-left-bottom{
+    width: 400px;
+  }
+  .gold-ornament-3-right-bottom{
+    width: 300px;
+  }
+
+  .product-grid{
+    grid-template-columns: repeat(2, auto); 
+    grid-template-rows: repeat(3, 530px); 
+    justify-items: center;
+    
+  }
+  
+  .second-section-block{
+    height: 2100px;
+  }
+
+  .product-container,
+  .rp-container,
+  .figura-container,
+  .plakat-container,
+  .box-container{
+    height: 1700px;
+  }
+
+  .product-card,
+  .rp-card,
+  .figura-card,
+  .plakat-card,
+  .box-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    background-color: #101F30;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  .product-price,
+  .rp-price{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FEC108;
+    margin-bottom: 15px;
+  }
+
+  .product-title,
+  .rp-title{
+    font-family: Brandink Sans;
+    font-size: 29px;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .product-buy-button p{
+    font-size: 29px;
+  }
+
+  .product-whatsapp-icon,
+  .rp-whatsapp-icon{
+    height: 41px;
+    margin-right: 15px;
+  }
+
+  .lm-antam,
+  .antam-retro-potrait,
+  .figura,
+  .plakat,
+  .box{
+    border: solid;
+    border-color: #FEC108;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    background-color: #2E3D4C;
+    color: white;
+    
+    font-family: Brandink Sans;
+    font-size: 26px;
+  }
+
+  .product-category{
+    display: flex;
+    margin-top: 30px;
+    
+    width: 800px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+
+  .second-section-title{
+    font-size: 36px;
+    margin-top: 108px;
+  
+  }
+}

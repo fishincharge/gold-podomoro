@@ -1,0 +1,151 @@
+.third-section-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: #101F30;
+  position: relative;
+  
+}
+
+.gold-ornament-4-top-left{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 800px;
+}
+
+.gold-ornament-4-top-right{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 500px;
+}
+
+.third-section-title{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  margin-top: 48px;
+  color: white;
+}
+
+.third-section-emphasis{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FEC108;
+  
+}
+
+.third-section-end{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  margin-top: 14px;
+  color: white;
+}
+
+/*Slider*/
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  height: 1300px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.slide-content{
+  padding: 45px 20px;
+  margin: 0 40px;
+  overflow: hidden;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 402px;
+  height: 717px;
+}
+
+.bukti-transaksi-image{
+  border-radius: 10px;
+  border: solid;
+  border-color: #FEC108;
+  border-width: 1px;
+  object-fit: fill;
+  width: 320px;
+  height: 600px;
+}
+
+.swiper-navBtn{
+  color: white;
+}
+
+.swiper-button-next{
+  right:0;
+}
+
+.swiper-button-prev{
+  left: 0;
+}
+
+.swiper-pagination-bullet{
+  background-color: white;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: white;
+  opacity: 1;
+}
+
+@media (max-width: 1100px){
+
+  .third-section-title{
+    font-size: 46px;
+    margin-top: 108px;
+    
+  }
+  
+  .third-section-emphasis{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 52px;
+    color: #FEC108;
+  }
+
+  .slide-container{
+    max-width: 1120px;
+    height: 1600px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .third-section-end{
+    font-size: 46px;
+  }
+
+  .slide-content{
+    margin: 0 10px;
+  }
+  
+  .swiper-navBtn{
+    display: none;
+  }
+
+  .gold-ornament-4-top-left{
+    width: 400px;
+  }
+  .gold-ornament-4-top-right{
+    width: 300px;
+  }
+  .bukti-transaksi-image{
+    width: 400px;
+    height: 700px;
+  }
+
+}

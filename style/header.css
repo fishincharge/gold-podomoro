@@ -1,0 +1,177 @@
+.company-title{
+  font-family: Playfair Display;
+  font-weight: normal;
+  font-size: 48px;
+  color: #FEC108;
+}
+
+.page-navigation a:hover{
+  color: #FEC108;
+}
+
+.page-navigation a:active{
+  color: #FEC108;
+  opacity: 0.5;
+}
+
+.home-header{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.product-header{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.transaction-header{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.buyback-header{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.contact-header{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.home-header-scrolled{
+  color: #FEC108;
+}
+
+.product-header-scrolled{
+  color: #FEC108;
+}
+
+.transaction-header-scrolled{
+  color: #FEC108;
+}
+
+.buyback-header-scrolled{
+  color: #FEC108;
+}
+
+.contact-header-scrolled{
+  color: #FEC108;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #101F30;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.page-navigation {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.button-menu{
+  display: none;
+}
+
+.menu-image{
+  filter: invert(97%) sepia(76%) saturate(0%) hue-rotate(321deg) brightness(103%) contrast(101%);
+  height: 50px;
+  cursor: pointer;
+}
+
+.menu-image:hover{
+  filter: invert(77%) sepia(73%) saturate(1916%) hue-rotate(355deg) brightness(104%) contrast(99%);
+}
+
+.menu-image:active{
+  opacity: 0.5;
+}
+
+.nav-dropdown{
+  display: none;
+}
+
+.nav-dropdown{
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 100px;
+  height: 0;
+  width: 400px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background: rgba(183,135,33,1);
+  
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  overflow: hidden;
+
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-dropdown div:active{
+  color: #FEC108;
+  
+}
+
+.nav-dropdown.open{
+  height: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 1100px){
+
+  .company-title{
+    font-size: 68px;
+  }
+
+  .button-menu{
+    display: block;
+  }
+
+  .page-navigation{
+    display: none;
+  }
+
+  .nav-dropdown{
+    display: flex;
+  }
+ 
+  .home-header,
+  .product-header,
+  .transaction-header,
+  .buyback-header,
+  .contact-header{
+    font-size: 38px;
+  }
+  
+}

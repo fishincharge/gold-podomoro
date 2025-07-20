@@ -1,0 +1,285 @@
+.fourth-section-block{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: #2E3D4C;
+  padding-top: 100px;
+  
+}
+
+.gold-ornament-5-left-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 510px;
+}
+
+.gold-ornament-5-right-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+}
+
+.fourth-section-title{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  color: white;
+  margin-top: 38px;
+  font-weight: normal;
+}
+
+.fourth-section-emphasis{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FEC108;
+}
+
+.tagline-banner{
+  background-color: #FEC108;
+  display: flex;
+  height: 100px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  font-size: 36px;
+  font-family: Brandink Sans;
+  
+}
+
+.latest-update-info{
+  display: flex;
+  flex-direction: row;
+  
+  
+  margin-top: 30px;
+  align-items: center;
+  width: 500px;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.time-icon{
+  height: 50px;
+}
+
+.last-update-text{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+}
+
+.buyback-block{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.buyback-title{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 21px;
+  color: #FEC108;
+}
+
+.buyback-background{
+  height: 500px;
+}
+
+.buyback-group{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  left: 0px;
+  right: 0px;
+  
+
+}
+
+.buyback-group img:hover{
+  scale: 1.1;
+}
+
+.buyback-group img{
+  transition: .2s linear;
+}
+
+.buyback-text{
+  font-family: Brandink Sans;
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+}
+
+.buyback-product-image{
+  height: 280px;
+  width: 250px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.buyback-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  margin-top: 15px;
+  
+
+  border: none;
+  border-radius: 10px;
+  
+  background-color: #2BD465;
+
+}
+
+.buyback-whatsapp{
+  height: 30px;
+  margin-right: 10px;
+}
+
+.buyback-text-button{
+  font-family: Brandink Sans;
+  font-size: 14px;
+  color: white;
+}
+
+.buyback-grid{
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 380px 380px;
+  column-gap: 0px;
+  row-gap: 40px;
+
+  margin-bottom: 50px;
+  
+}
+
+@media (max-width: 1100px){
+  .gold-ornament-5-left-bottom{
+    width: 300px;
+  }
+  .gold-ornament-5-right-bottom{
+    width: 250px;
+  }
+
+  .tagline-banner{
+    font-size: 42px;
+  }
+
+  .fourth-section-title{
+    font-size: 42px;
+  }
+  
+  .fourth-section-emphasis{
+    font-size: 52px;
+  }
+
+  .last-update-text{
+    font-size: 30px;
+  }
+
+  .latest-update-info{
+    width: 600px;
+  }
+
+  .buyback-block{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buyback-title{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FEC108;
+    
+  }
+
+  .buyback-background{
+    height: 500px;
+  }
+
+  .buyback-group{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+  }
+
+  
+  .buyback-text{
+    font-family: Brandink Sans;
+    font-size: 34px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .buyback-text-button{
+    font-family: Brandink Sans;
+    font-size: 32px;
+    color: white;
+  }
+
+  .buyback-whatsapp{
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .buyback-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 320px;
+    margin-top: 15px;
+    
+  
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #2BD465;
+  
+  }
+  
+  .buyback-product-image{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .buyback-background{
+    height: 650px;
+    object-fit: fill;
+    width: 450px;
+
+  }
+
+  .buyback-grid{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 470px 470px;
+    column-gap: 0px;
+    row-gap: 40px; 
+    margin-bottom: 250px;
+  }
+
+}

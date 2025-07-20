@@ -1,0 +1,233 @@
+.first-section-block{
+  display: block;
+  position: relative;
+  background-color: #101F30;
+  
+}
+
+.cta-group{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+  column-gap: 120px;
+  justify-items: center;
+  align-items: center;
+  
+  padding-top: 130px;
+  padding-bottom: 150px;
+}
+
+.cta-grid{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end; 
+  
+  
+}
+
+.image-grid{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  
+}
+
+.cta-block{
+  display: block;
+  flex-direction: column;
+  
+}
+
+.gold-preview-image{
+  width: 65%;
+  height: auto; 
+  object-fit: contain;
+  
+}
+
+.cta-first-line{
+  font-family: Brandink Sans;
+  width: 450px;
+  color: #FFF8DD;
+  font-size: 24px;
+}
+
+.cta-second-line{
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 10px;
+  color: #FEC108;
+}
+
+.cta-third-line{
+  font-family: Brandink Sans;
+  width: 400px;
+  font-size: 26px;
+  margin-top: 5px;
+  color: white;
+}
+
+.harga-emas-block, 
+.harga-buyback-block{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 600px;
+  align-items: center;
+  cursor: pointer; 
+}
+
+.harga-emas-text, .harga-buyback-text{
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 21px;
+  color: white;
+  margin-top: 30px;
+
+  z-index: 2;
+}
+
+.harga-emas-box,
+.harga-buyback-box{
+  border: solid;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #FEC108;
+  height: 40px;
+  width: 600px;
+
+  position: absolute;
+  top: 20px;
+  left: 0;
+
+  z-index: 1;
+}
+
+.harga-emas-text:hover{
+  color: #FEC108;
+
+}
+
+.harga-emas-text:active{
+  opacity: 0.5;
+}
+
+.harga-buyback-text:hover{
+  color: #FEC108;
+
+}
+
+.harga-buyback-text:active{
+  opacity: 0.5;
+}
+
+
+.gold-ornament-1-left{
+  width: 347px;
+  position: absolute;
+  bottom: 0;  
+  left: 0;
+}
+
+.gold-ornament-1-right{
+  width: 529px;
+  position: absolute;
+  bottom: 0;  
+  right: 0;
+}
+
+@media (max-width: 1100px) {
+
+  .gold-ornament-1-left{
+    width: 250px;
+  }
+
+  .gold-ornament-1-right{
+    width: 400px;
+  }
+
+  .gold-preview-image{
+    top: 600px;
+    left: 200px;
+    height: 100%;
+    width: 800px;
+  }
+
+  .cta-first-line{
+    width: 100%;
+    font-size: 16pt;
+  }
+  
+  .cta-second-line{
+    font-size: 46pt;
+    
+  }
+  
+  .cta-third-line{
+    width: 100%;
+    font-size: 21pt;
+  }
+
+  .cta-block{
+    margin-right: 0px;
+    width: 800px;
+    margin-top: 50px;
+  }
+
+  .cta-group{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  
+    column-gap: 120px;
+    justify-items: center;
+    align-items: center;
+    
+    padding-top: 130px;
+    padding-bottom: 240px;
+  }
+
+  .cta-grid{
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin-bottom: 50px;
+  }
+  
+  .image-grid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    justify-content: center;
+  }
+
+  .harga-emas-text, .harga-buyback-text{
+    font-size: 26pt;
+    margin-top: 60px;
+    text-align: center;
+  
+    z-index: 2;
+  }
+
+  .harga-emas-block, 
+  .harga-buyback-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    cursor: pointer; 
+  }
+
+  .harga-emas-box,
+  .harga-buyback-box{
+    height: 60px;
+    width: 100%;
+
+    position: absolute;
+    top: 50px;
+    
+  }
+}

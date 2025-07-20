@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(../font/PlayfairDisplayBold.ttf) format(truetype);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(../font/PlayfairDisplayRegular.ttf) format(truetype);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Brandink Sans';
+  src: url(../font/BrandinkSans.otf) format(opentype);
+  font-weight: normal;
+}

@@ -1,0 +1,80 @@
+.table-sidenote{
+  color: white;
+  font-family: Brandink Sans;
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.buyback-table-block{
+  margin-top: 20px;
+}
+
+.buyback-table{
+  width: 600px;
+  background-color: #FEC108;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  border-spacing: 1px; 
+
+}
+
+.buyback-table th{
+  font-size: 16px;
+  color: #FFF8DD;
+  font-family: Brandink Sans;
+  
+  text-align: left;
+}
+
+.buyback-table td{
+  font-size: 14px;
+  color: white;
+  font-family: Brandink Sans;
+  font-weight: normal;
+}
+
+.buyback-table th,
+.buyback-table td{
+  background-color: #101F30;
+  padding: 5px 10px;
+}
+
+@media (max-width:1100px){
+  .buyback-table-block{
+    margin-top: 40px;
+  }
+
+  
+  .buyback-table{
+    width: 100%;
+    background-color: #FEC108;
+    border-radius: 2px;
+    border-spacing: 1px; 
+
+  }
+
+  .buyback-table th{
+    font-size: 28px;
+    color: #FFF8DD;
+    font-family: Brandink Sans;
+    
+    text-align: left;
+  }
+
+  .buyback-table td{
+    font-size: 26px;
+    color: white;
+    font-family: Brandink Sans;
+    font-weight: normal;
+  }
+  
+  .table-sidenote{
+    color: white;
+    font-family: Brandink Sans;
+    font-weight: normal;
+    font-size: 8pt;
+    margin-top: 10px;
+  }
+}

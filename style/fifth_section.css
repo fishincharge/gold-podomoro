@@ -1,0 +1,206 @@
+.fifth-section-block{
+  display: flex;
+  background-color: #101F30;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.gold-ornament-6-left-top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 510px;
+}
+
+.gold-ornament-6-right-top{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 350px;
+}
+
+.fifth-title{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  color: white;
+  margin-top: 60px;
+  font-weight: normal;
+}
+
+.fifth-emphasises{
+  font-family: Playfair Display;
+  font-weight: normal;
+  font-size: 48px;
+  color: #FEC108;
+}
+
+.fifth-detail{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 1200px;
+  margin-bottom: 200px;
+}
+
+.fifth-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  
+  width: 600px;
+  
+}
+
+.fifth-title-info{
+  font-family: Brandink Sans;
+  font-size: 32px;
+  margin-top: 40px;
+  color: #FFF8DD;
+}
+
+.fifth-text{
+  font-family: Brandink Sans;
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+}
+
+.embed-maps{
+  width: 500px; 
+  height: 500px; 
+}
+
+.fifth-phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fifth-instagram{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.whatsapp-green-icon{
+  height: 40px;
+  margin-right: 15px;
+}
+
+.whatsapp-number{
+  font-family: Brandink Sans;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+
+.instagram-icon{
+  height: 40px;
+  margin-right: 15px;
+}
+
+.instagram-account{
+  font-family: Brandink Sans;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.instagram-account:hover,
+.whatsapp-number:hover{
+  color: #FEC108;
+}
+
+.page-end{
+  width: 50px;
+  height: 50px;
+  background-color: #FEC108;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+@media (max-width:1100px){
+  .gold-ornament-6-left-top{
+    width: 300px;
+  }
+  .gold-ornament-6-right-top{
+    width: 250px;
+  }
+
+  .fifth-title{
+    font-family: Brandink Sans;
+    font-size: 48px;
+    color: white;
+    margin-top: 120px;
+  }
+  
+  .fifth-emphasises{
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 62px;
+    color: #FEC108;
+  }
+
+  .fifth-detail{
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 200px;
+  }
+
+  .fifth-info{
+    padding-top: 50px;
+    margin-left: 0px;
+    width: 700px;
+  }
+
+  .embed-maps{
+    width: 800px; 
+    height: 800px; 
+  }
+
+  .fifth-title-info{
+    font-family: Brandink Sans;
+    font-size: 48px;
+    margin-top: 40px;
+    color: #FFF8DD;
+  }
+
+  .whatsapp-green-icon{
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .whatsapp-number{
+    font-family: Brandink Sans;
+    font-size: 41px;
+    color: white;
+  }
+  
+  .instagram-icon{
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .instagram-account{
+    font-family: Brandink Sans;
+    font-size: 41px;
+    color: white;
+    
+  }
+
+  .fifth-text{
+    font-family: Brandink Sans;
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+}

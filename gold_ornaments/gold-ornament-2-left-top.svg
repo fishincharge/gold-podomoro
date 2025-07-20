@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 350 347">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_38-8);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_38-9);
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_38-11);
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_38-10);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_38-5);
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_38-2);
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_38-6);
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre_38);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        fill: url(#Degradado_sin_nombre_38-12);
+      }
+
+      .cls-11 {
+        fill: url(#Degradado_sin_nombre_38-3);
+      }
+
+      .cls-12 {
+        fill: url(#Degradado_sin_nombre_38-7);
+      }
+
+      .cls-13 {
+        fill: url(#Degradado_sin_nombre_38-4);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-6" width="350" height="347"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_38" data-name="Degradado sin nombre 38" x1="-224.68" y1="-762.09" x2="188.01" y2="-52.77" gradientTransform="translate(7.45 -30.94) rotate(-.52) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4c57b"/>
+      <stop offset=".13" stop-color="#f4c57b"/>
+      <stop offset=".21" stop-color="#ffedc8"/>
+      <stop offset=".28" stop-color="#c4964c"/>
+      <stop offset=".44" stop-color="#ffe1a3"/>
+      <stop offset=".59" stop-color="#f4c57b"/>
+      <stop offset=".7" stop-color="#c4964c"/>
+      <stop offset=".81" stop-color="#ffedc8"/>
+      <stop offset=".92" stop-color="#c4964c"/>
+      <stop offset="1" stop-color="#f4c57b"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_38-2" data-name="Degradado sin nombre 38" x1="-256.74" y1="-750.27" x2="161.01" y2="-32.27" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-3" data-name="Degradado sin nombre 38" x1="-289.56" y1="-738.18" x2="133.36" y2="-11.27" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-4" data-name="Degradado sin nombre 38" x1="-323.2" y1="-725.8" x2="105.04" y2="10.23" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-5" data-name="Degradado sin nombre 38" x1="-357.67" y1="-713.12" x2="76" y2="32.26" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-6" data-name="Degradado sin nombre 38" x1="-393.01" y1="-700.13" x2="46.24" y2="54.84" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-7" data-name="Degradado sin nombre 38" x1="-429.25" y1="-686.83" x2="15.73" y2="77.98" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-8" data-name="Degradado sin nombre 38" x1="-466.43" y1="-673.19" x2="-15.58" y2="101.71" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-9" data-name="Degradado sin nombre 38" x1="-504.58" y1="-659.21" x2="-47.7" y2="126.06" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-10" data-name="Degradado sin nombre 38" x1="-543.74" y1="-644.87" x2="-80.67" y2="151.04" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-11" data-name="Degradado sin nombre 38" x1="-583.96" y1="-630.16" x2="-114.52" y2="176.68" xlink:href="#Degradado_sin_nombre_38"/>
+    <linearGradient id="Degradado_sin_nombre_38-12" data-name="Degradado sin nombre 38" x1="-625.26" y1="-615.07" x2="-149.29" y2="203.01" xlink:href="#Degradado_sin_nombre_38"/>
+  </defs>
+  <g id="Back_elims_2" data-name="Back elims 2">
+    <g class="cls-14">
+      <g>
+        <polygon class="cls-9" points="-264.16 588.81 375.49 -44.23 375.42 -52.48 375.42 -52.48 -269.18 585.64 -264.16 588.81"/>
+        <polygon class="cls-7" points="355.83 -75.62 355.73 -83.62 355.72 -83.62 -296.01 562.68 -291.12 565.77 355.83 -75.62"/>
+        <polygon class="cls-11" points="335.69 -107.78 335.55 -115.53 335.55 -115.53 -323.48 539.18 -318.72 542.18 335.69 -107.78"/>
+        <polygon class="cls-13" points="315.05 -140.73 314.88 -148.22 314.87 -148.22 -351.61 515.12 -346.99 518.01 315.05 -140.73"/>
+        <polygon class="cls-5" points="293.89 -174.51 293.69 -181.72 293.69 -181.72 -380.42 490.47 -375.95 493.26 293.89 -174.51"/>
+        <polygon class="cls-8" points="272.2 -209.16 271.97 -216.07 271.96 -216.07 -409.94 465.21 -405.63 467.88 272.2 -209.16"/>
+        <polygon class="cls-12" points="249.94 -244.69 249.69 -251.3 249.68 -251.3 -440.2 439.32 -436.05 441.88 249.94 -244.69"/>
+        <polygon class="cls-1" points="227.11 -281.15 226.83 -287.44 226.83 -287.44 -471.22 412.78 -467.25 415.21 227.11 -281.15"/>
+        <polygon class="cls-2" points="203.67 -318.57 203.38 -324.53 203.37 -324.53 -503.04 385.56 -499.25 387.85 203.67 -318.57"/>
+        <polygon class="cls-4" points="179.6 -357 179.3 -362.6 179.3 -362.6 -535.68 357.63 -532.09 359.78 179.6 -357"/>
+        <polygon class="cls-3" points="154.88 -396.47 154.57 -401.7 154.57 -401.71 -569.18 328.97 -565.8 330.96 154.88 -396.47"/>
+        <polygon class="cls-10" points="-600.41 301.38 129.48 -437.02 129.17 -441.87 129.17 -441.87 -603.58 299.54 -600.41 301.38"/>
+      </g>
+    </g>
+  </g>
+</svg>

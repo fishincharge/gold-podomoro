@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 442.67 670.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_73);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #1a2634;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_73" data-name="Degradado sin nombre 73" x1="692.09" y1="95.63" x2="-21.65" y2="388.15" gradientTransform="translate(-113.88 93.51)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4c57b"/>
+      <stop offset=".04" stop-color="#f4c57b"/>
+      <stop offset=".21" stop-color="#ffedc8"/>
+      <stop offset=".3" stop-color="#e5ba77"/>
+      <stop offset=".35" stop-color="#e5ba77"/>
+      <stop offset=".4" stop-color="#ffe1a3"/>
+      <stop offset=".53" stop-color="#f4c57b"/>
+      <stop offset=".61" stop-color="#dbad63"/>
+      <stop offset=".67" stop-color="#dbad63"/>
+      <stop offset=".81" stop-color="#ffedc8"/>
+      <stop offset=".87" stop-color="#e2bd85"/>
+      <stop offset=".93" stop-color="#e6bf83"/>
+      <stop offset="1" stop-color="#f4c57b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" x="-114.06" y="114.06" width="670.79" height="442.67" rx="28.26" ry="28.26" transform="translate(556.73 114.06) rotate(90)"/>
+      <rect class="cls-2" x="-100.49" y="124.24" width="647.04" height="422.32" rx="28.59" ry="28.59" transform="translate(558.42 112.36) rotate(90)"/>
+    </g>
+  </g>
+</svg>
