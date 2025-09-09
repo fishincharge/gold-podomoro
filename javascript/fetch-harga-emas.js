@@ -5,7 +5,7 @@ function delay(ms) {
 async function getFormattedGoldPrice() {
   try {
 
-      const response = await fetch('https://logam-mulia-api.vercel.app/prices/hargaemas-org');
+      const response = await fetch('https://logam-mulia-api.vercel.app/prices/anekalogam');
       const data = await response.json();
 
 
