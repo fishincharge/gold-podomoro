@@ -4,7 +4,7 @@ function delay(ms) {
 
 async function getFormattedGoldPrice() {
   try {
-      const response = await fetch('https://logam-mulia-api.vercel.app/prices/anekalogam', {
+      const response = await fetch('https://logam-mulia-api.vercel.app/prices/lakuemas', {
           method: 'GET',
           mode: 'cors', // Explicitly request CORS
           headers: {
@@ -53,5 +53,6 @@ async function getFormattedGoldPrice() {
 }
 
 getFormattedGoldPrice();
+
 
 
