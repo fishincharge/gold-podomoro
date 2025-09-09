@@ -4,10 +4,19 @@ function delay(ms) {
 
 async function getFormattedGoldPrice() {
   try {
-
-      const response = await fetch('https://logam-mulia-api.vercel.app/prices/anekalogam');
+      const response = await fetch('https://logam-mulia-api.vercel.app/prices/anekalogam', {
+          method: 'GET',
+          mode: 'cors', // Explicitly request CORS
+          headers: {
+              'Content-Type': 'application/json',
+          }
+      });
+      
+      if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data = await response.json();
-
 
       const sellValue = data.data[0].sell;
       const currentDate = new Date();
@@ -34,10 +43,15 @@ async function getFormattedGoldPrice() {
       
       let harga_emas = document.getElementById('harga-emas-text');
       harga_emas.innerHTML = formattedString;
+    
   } catch (error) {
       console.error('Error fetching or processing data:', error);
+      // Fallback content
+      let harga_emas = document.getElementById('harga-emas-text');
+      harga_emas.innerHTML = 'Harga emas tidak dapat dimuat saat ini';
   }
 }
 
 getFormattedGoldPrice();
+
 
